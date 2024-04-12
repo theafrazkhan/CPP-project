@@ -44,17 +44,17 @@
 	     cout<<"\nN. Name";
 	     cout<<"\nM. Mobile Number";
 	     cin>>reply;
-	     if(reply=='C'&& reply=='c')
+	     if(reply=='C'|| reply=='c')
 	      {
 	       cout<<"\nNew customer number : ";
 	       cin>>cno;
 	      }
-	     else if(reply=='N' && reply=='n')
+	     else if(reply=='N' || reply=='n')
 	      {
 	       cout<<"\nNew name : ";
 	       cin>>name;
 	      }
-	     else if(reply=='M' && reply=='m')
+	     else if(reply=='M' || reply=='m')
 	      {
 	       cout<<"\nNew mobile number : ";
 	       cin>>mbno;
